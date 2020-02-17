@@ -136,7 +136,7 @@ class App extends Component {
                 p5.cursor('crosshair')
                 this.mouseX = p5.mouseX; this.mouseY = p5.mouseY
               } else {
-                p5.cursor('auto')
+                p5.cursor('default')
                 this.mouseX = null; this.mouseY = null;
               }
             }}
